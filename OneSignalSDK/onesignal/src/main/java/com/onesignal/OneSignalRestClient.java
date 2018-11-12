@@ -41,7 +41,7 @@ class OneSignalRestClient {
       void onFailure(int statusCode, String response, Throwable throwable) {}
    }
 
-   private static final String BASE_URL = "https://pos.proshasoft.com/api/customer/v1/setting/onesignal_proxy";
+   private static final String BASE_URL = "https://pos.proshasoft.com/api/customer/v1/setting/onesignal_proxy/";
    private static final int TIMEOUT = 120000;
    private static final int GET_TIMEOUT = 60000;
    
